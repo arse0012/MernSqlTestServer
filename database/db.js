@@ -1,10 +1,10 @@
 const sql = require("mssql/msnodesqlv8");
 
 const config = {
-  user: 'MernArsen',
-  password: 'Drakking7?',
-  server: 'mernsqltest.database.windows.net',
-  database: 'ReactExpressNodeSqlTest',
+  user: '',
+  password: '',
+  server: '',
+  database: '',
 }
 const poolPromise = new sql.ConnectionPool(config)
   .connect()
