@@ -1,0 +1,10 @@
+{
+    "getAllExercises" : "SELECT * FROM exercises",
+    "getAllTrainers" : "SELECT TOP(5) * FROM trainers",
+    "addNewTrainer" : "INSERT INTO trainers (firstName, lastName, email, phone) VALUES (@firstName, @lastName, @email, @phone)",
+    "addNewExercise" : "INSERT INTO exercises (firstName, lastName, description, duration, date) VALUES (@firstName, @lastName, @description, @duration, @date)",
+    "updateTrainer": "UPDATE trainers SET username = @firstName",
+    "updateExercise": "UPDATE exercises SET username = @firstName",
+    "deleteTrainer" : "DELETE FROM trainers WHERE fristName = @firstName",
+    "deleteExercise" : "DELETE FROM exercises WHERE firstName = @firstName"
+}
